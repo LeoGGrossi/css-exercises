@@ -26,7 +26,7 @@ img {
 
 .subcontainer {
   max-width: 200px;
-
+  /*test*/
   /*  O display flex  que permite o  texto ficar ao lado  da img
   display: inherit;
   justify-content: center;
