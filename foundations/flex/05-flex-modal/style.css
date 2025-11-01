@@ -13,6 +13,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /**/
+  
+}
+
+
+
+/*
+.container {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+*/
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 8px;
+  
+}
+
+.header {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  margin-bottom: 8px;
 }
 
 .modal {
@@ -20,6 +57,14 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /**/
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  /*
+  align-items: flex-start;
+  justify-content: space-between;
+  */
 }
 
 .icon {
@@ -33,6 +78,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /**/
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -48,6 +95,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  /**/
+  flex-shrink: 0;
 }
 
 button {
