@@ -5,7 +5,8 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+  /*justify-content: space-between; removed shrink from head and foot*/
 }
 
 .header {
@@ -34,8 +35,8 @@ body {
 .content {
   display: flex;
   flex-grow: 1;
-  align-items: stretch;
 
+  /*align-items: stretch; was being restricted by space between before*/
 }
 
 .sidebar {
@@ -60,6 +61,11 @@ body {
   padding: 0px;
 }
 
+li {
+  padding-bottom: 16px;
+  /*didnt notie this*/
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
@@ -71,7 +77,7 @@ body {
 
 .card-container {
   display: flex;
-  align-items: stretch;
+  /*align-items: stretch;*/
 
   flex-wrap: wrap;
   gap: 32px;
