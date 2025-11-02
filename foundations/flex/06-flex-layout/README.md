@@ -1,3 +1,5 @@
+
+
 # An entire page!
 
 Flexbox is useful for laying out entire pages as well as the smaller components we've already been working with. For this exercise, we're leaving you with a little more work to do, with some things you may not have encountered yet. It's perfectly acceptable to google things you're unsure of!
@@ -10,7 +12,9 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 ## Desired Outcome
 ![desired outcome](./desired-outcome.png)
 
-### Self Check
+### Self Check,
+,
+
 
 - The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
 - The header and footer have padding.
